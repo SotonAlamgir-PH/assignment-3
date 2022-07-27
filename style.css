@@ -1,0 +1,17 @@
+.carousel-item::before{
+    height:100vh;
+    min-height: 300px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background-color: #1E1E1E;
+    opacity: .5;
+}
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top:50%;
+}
