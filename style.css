@@ -1,7 +1,11 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* fonts  */
 body{
     overflow-x: hidden;
     min-height:100vh;
     min-width: 100vw;
+    font-family: 'Poppins', sans-serif;
 }
 .my-carousel-item::before{
     height:100vh;
@@ -23,3 +27,22 @@ body{
 .explore-bg{
     background-color: #F4FAFD;
 }
+
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 600px) {
+    .course-offer.d-flex.align-items-center {
+        display: flex;
+        flex-direction: column;
+    }
+    .rjoin-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .faq-items{
+        width:100%;
+    }
+    .btn-r{
+        visibility: visible;
+    }
+}
+
