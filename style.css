@@ -1,4 +1,4 @@
-.carousel-item::before{
+.my-carousel-item::before{
     height:100vh;
     min-height: 300px;
     content: "";
